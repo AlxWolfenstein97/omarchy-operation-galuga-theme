@@ -1,0 +1,35 @@
+mode = "dark"
+
+# Red Falcon pack — fire-orange Contra blast + laser cyan on jungle black
+accent = "#FF3A1A"
+selection = "#2A120C"
+muted = "#5A4A3A"
+
+background = "#0A0806"
+dark_background = "#060504"
+darker_background = "#030201"
+lighter_background = "#1A1410"
+
+foreground = "#F2EDE6"
+dark_foreground = "#7A6E62"
+light_foreground = "#D4C8BA"
+bright_foreground = "#FFFFFF"
+
+hyprland_active_border = "rgba(FF3A1Aee) rgba(00D4FFee) 45deg"
+hyprland_inactive_border = "rgba(2A120Caa)"
+
+red = "#E82020"
+yellow = "#FFD040"
+orange = "#FF6A14"
+green = "#4AAA3A"
+cyan = "#00D4FF"
+blue = "#3A6ABA"
+magenta = "#C45A3A"
+brown = "#6B3A1A"
+
+bright_red = "#FF5548"
+bright_yellow = "#FFE066"
+bright_green = "#6ACC5A"
+bright_cyan = "#66E8FF"
+bright_blue = "#5A8ABA"
+bright_magenta = "#E08060"
