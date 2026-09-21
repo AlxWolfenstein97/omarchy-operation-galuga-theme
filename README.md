@@ -141,11 +141,41 @@ omarchy plugin add https://github.com/AlxWolfenstein97/omatty.git --enable
 ```
 
 **Not broken — one more step.** Marketplace / `plugin add` only drops the
-code. Style menu rows and theme-follow hooks stay **off** until you consent:
+code. Style menu rows and theme-follow hooks stay **off** until you consent
+(Omarchy marketplace rule). Until then nothing visible happens in Style /
+auto-sync — that’s intentional, not a dead plugin. Read each plugin’s
+**Marketplace consent** section on GitHub, or arm everything you installed in
+one shot (skips Y/n):
 
 ```bash
+# Chroma theme-set + Style rows for whatever of the family you added above
 ~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/arm-all-family.sh
 ```
+
+(Chroma alone: same script, or
+`~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/install.sh --yes`.)
+
+**Full wipe — one shot out.** Themes don’t custom-uninstall these plugins.
+Each extender has the same easy out as `install.sh --yes`: teardown +
+`plugin remove`, and **`--yes` tries to drop the packages that plugin may
+have pulled** (`omarchy pkg drop`). If something else still needs them,
+pacman keeps them — that’s fine, same as interactive Y/n when a drop fails.
+
+```bash
+~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/uninstall.sh --yes
+~/.config/omarchy/plugins/io.github.alxwolfenstein97.omacursor/uninstall.sh --yes
+# …same path pattern for omaobs / omahud / omaboot / omavt / omatty
+```
+
+Or wipe every installed extender in the family at once (plugins + a final
+shared-dep sweep for pillow / numpy / adw-gtk-theme / terminus-font):
+
+```bash
+~/.config/omarchy/plugins/io.github.alxwolfenstein97.chroma/tools/wipe-all-family.sh
+```
+
+(Privileged Limine/VT/FONT/root teardown may still ask for a password once
+per plugin that needs it.)
 
 ### Already solved elsewhere (gladly)
 
