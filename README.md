@@ -5,8 +5,8 @@ unlockable characters? The Spread Gun? What if your desktop could match that
 fiery palette — you should be good at mashing that fire button; Hypr makes
 you go fast anyway. Jungle black. Muzzle-flash orange. Laser cyan on the
 borders. Hard Corps chrome, Red Falcon heat, no HUD clutter on the carousel.
-Hyprland’s active border runs the same dual-accent trick as the asphalt
-night pack and the HEV suit: **Contra fire → laser cyan** at 45°.
+Hyprland’s active border runs the same dual-accent trick as
+Asphalt, HEV, CS, Cyber Shadow, Doom 2016, Eternal, Caged, KI, Rising, Stanley, SF6, T2D & USFIV: **Contra fire → laser cyan** at 45°.
 
 Run-’n’-gun theme for [Omarchy](https://omarchy.org/). Inspired by the look of
 *Contra: Operation Galuga* — **not affiliated with Konami or WayForward**
